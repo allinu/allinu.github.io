@@ -3,7 +3,7 @@ title: about
 date: 2021-05-13 19:56:04
 ---
 
-# {🌼} Hi there, I'm [Liona][website] 👋
+# {🌼} Hi there, I'm **Liona** 👋
 
 ## Who am I
 

@@ -105,4 +105,3 @@ deploy:
   type: 'git'
   repo: "https://github.com/allinu/allinu.github.io"
   branch: [ "pages" ]
-  message: ["Hexo deployed"]
