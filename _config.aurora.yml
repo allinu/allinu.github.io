@@ -13,17 +13,17 @@ site:
   author: 小巳
   nick: Liona Maskros
   description: 网络和安全
-  link: '/'
+  link: "/"
   language: cn
   multi_language: true
   logo: https://i.loli.net/2021/05/13/zYls6pQaWiJLmZC.png
   avatar: https://i.loli.net/2021/05/13/T2mPhMs8rolpWbS.png
   beian:
-    number: '冀ICP备2021010408号-1'
-    link: 'https://beian.miit.gov.cn/'
+    number: "冀ICP备2021010408号-1"
+    link: "https://beian.miit.gov.cn/"
   police_beian:
-    number: ''
-    link: ''
+    number: ""
+    link: ""
 
 #! ---------------------------------------------------------------
 #! Authors Configs
@@ -47,6 +47,12 @@ menu:
   About: true
   Tags: true
   Archives: true
+  message-board:
+    name: "MessageBoard"
+    i18n:
+      cn: "留言板"
+      en: "Message Board"
+    path: "/page/message-board"
 
 #! ---------------------------------------------------------------
 #! Theme Config
@@ -57,9 +63,9 @@ theme:
   profile_shape: circle # support `circle`, `diamond`, `rounded`
   feature: true
   gradient:
-    color_1: '#24c6dc'
-    color_2: '#5433ff'
-    color_3: '#ff0099'
+    color_1: "#24c6dc"
+    color_2: "#5433ff"
+    color_3: "#ff0099"
 
 #! ---------------------------------------------------------------
 #! Social Configs
@@ -88,11 +94,11 @@ socials:
 #! @docs https://aurora.tridiamond.tech/guide/theme.html
 #! ---------------------------------------------------------------
 site_meta:
-  cdn: cn
+  cdn: en
   favicon: https://i.loli.net/2021/05/13/ZL1Ygv9dl6UsE2N.png
-  description: '网络安全,计算机网络技术分享'
-  keywords: '网络,安全,计算机'
-  author: 'Liona'
+  description: "网络安全,计算机网络技术分享"
+  keywords: "网络,安全,计算机"
+  author: "Liona"
 
 #! ---------------------------------------------------------------
 #! Plugins
@@ -103,16 +109,16 @@ site_meta:
 gitalk:
   enable: true
   autoExpand: true
-  clientID: '0e6e6b668bd045445745'
-  clientSecret: '80db910f31f37cf6815770b1ceba692d32af8edf'
-  repo: 'comments'
-  owner: 'allinu'
-  admin: ['allinu']
+  clientID: "0e6e6b668bd045445745"
+  clientSecret: "80db910f31f37cf6815770b1ceba692d32af8edf"
+  repo: "comments"
+  owner: "allinu"
+  admin: ["allinu"]
   id: uid
   language: cn
   distractionFreeMode: true
   recentComment: true
-  proxy: ''
+  proxy: ""
 
 # Valine comment plugin (recommended!)
 # see https://valine.js.org/quickstart.html
@@ -120,14 +126,14 @@ valine:
   enable: false
   app_id:
   app_key:
-  avatar: ''
+  avatar: ""
   placeholder: Leave your thoughts behind~
   visitor: true
   lang: en
   avatarForce: false
-  meta: ['nick', 'mail']
+  meta: ["nick", "mail"]
   requiredFields: []
-  admin: 'TriDiamond'
+  admin: "TriDiamond"
   recentComment: true
 
 # Enable Busuanzi statistic plugin
