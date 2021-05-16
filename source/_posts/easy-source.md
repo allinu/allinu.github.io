@@ -1,9 +1,9 @@
 ---
-title: php_source
+title: easy_source
 feature: false
 tags:
   - PHP
-  - source
+  - Source
 categories:
   - CTF
 keywords: 'CTF,PHP'
@@ -11,7 +11,7 @@ description: 全国大学生竞赛CTF阶段题目：php_source的解题思路（
 date: 2021-05-16 09:21:32
 ---
 
-# PHP_source
+# easy_source
 
 ## 题目界面
 

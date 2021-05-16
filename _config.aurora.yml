@@ -14,7 +14,7 @@ site:
   nick: Liona Maskros
   description: 网络和安全
   link: "/"
-  language: en
+  language: cn
   multi_language: true
   logo: https://i.loli.net/2021/05/13/zYls6pQaWiJLmZC.png
   avatar: https://i.loli.net/2021/05/13/T2mPhMs8rolpWbS.png
@@ -59,7 +59,7 @@ menu:
 #! @docs https://aurora.tridiamond.tech/guide/theme.html
 #! ---------------------------------------------------------------
 theme:
-  dark_mode: true
+  dark_mode: false
   profile_shape: circle # support `circle`, `diamond`, `rounded`
   feature: true
   gradient:
