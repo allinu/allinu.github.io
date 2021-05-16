@@ -14,7 +14,7 @@ site:
   nick: Liona Maskros
   description: 网络和安全
   link: "/"
-  language: cn
+  language: en
   multi_language: true
   logo: https://i.loli.net/2021/05/13/zYls6pQaWiJLmZC.png
   avatar: https://i.loli.net/2021/05/13/T2mPhMs8rolpWbS.png
@@ -169,4 +169,10 @@ aurora_bot:
 #! ---------------------------------------------------------------
 injects:
   scripts:
+    - <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    - <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/diff-highlight/prism-diff-highlight.min.js"></script>
+    - <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+    - <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/show-language/prism-show-language.min.js"></script>
+    - <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/toolbar/prism-toolbar.min.js"></script>
   css:
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
