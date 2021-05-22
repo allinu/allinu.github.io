@@ -2,6 +2,7 @@
 title: about
 date: 2021-05-13 19:56:04
 ---
+<meta name="referrer" content="no-referrer"/>
 
 # {🌼} Hi there, I'm **Liona** 👋
 

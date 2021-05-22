@@ -1,16 +1,18 @@
 ---
 title: HCTF_2018_WarmUp
 feature: false
+cover: https://ww1.sinaimg.cn/large/005ZbjyVly1gqoniqzhiaj30xc0hg0ub.jpg
 tags:
   - BUUCTF
   - Web
   - Source
 categories:
   - CTF
-keywords: 'Web,Source'
-description: HCTF 2018 WarmUp 一道简单的代码审计,审计完之后是一个文件包含的处理
+keywords: 'Web, Source'
+description: HCTF 2018 WarmUp 一道简单的代码审计，审计完之后是一个文件包含的处理
 date: 2021-05-16 18:02:01
 ---
+<meta name="referrer" content="no-referrer"/>
 
 # [HCTF 2018] WarmUp
 
@@ -18,13 +20,13 @@ date: 2021-05-16 18:02:01
 
 ![005ZbjyVly1gqkfg6zog3j30tq0xugqn](https://ww1.sinaimg.cn/large/005ZbjyVly1gqkfg6zog3j30tq0xugqn.jpg)
 
-没有题目介绍,直接进入下一步
+没有题目介绍，直接进入下一步
 
 ## 访问页面
 
 ![005ZbjyVly1gqkfhjzf0yj31aa10q17n](https://ww1.sinaimg.cn/large/005ZbjyVly1gqkfhjzf0yj31aa10q17n.jpg)
 
-页面上只有一个滑稽(斜眼笑)表情,那就想看看源代码
+页面上只有一个滑稽（斜眼笑）表情，那就想看看源代码
 
 ![005ZbjyVly1gqkfj0isobj30tg0bqjto](https://ww1.sinaimg.cn/large/005ZbjyVly1gqkfj0isobj30tg0bqjto.jpg)
 
@@ -34,7 +36,7 @@ date: 2021-05-16 18:02:01
 
 ![005ZbjyVly1gqkfjwxloaj330o1q01kx](https://ww1.sinaimg.cn/large/005ZbjyVly1gqkfjwxloaj330o1q01kx.jpg)
 
-不出意外,页面内容为页面的源代码
+不出意外，页面内容为页面的源代码
 
 ## 分析源代码
 
@@ -93,17 +95,16 @@ date: 2021-05-16 18:02:01
 
 ![005ZbjyVly1gqkfpxw8ibj315w1m6h50](https://ww1.sinaimg.cn/large/005ZbjyVly1gqkfpxw8ibj315w1m6h50.jpg)
 
-
 :::tip 提示
-源代码中提及了一个`hint.php`的文件,访问之后便能知道flag文件的名称.
+源代码中提及了一个`hint.php`的文件，访问之后便能知道 flag 文件的名称。
 :::
 
 ## Payload
 
-最终的payload为:
+最终的 payload 为：
 `/index.php?file=hint.php?/../../../../../ffffllllaaaagggg`
 
-具体的返回层数需要不断尝试.
+具体的返回层数需要不断尝试。
 
 ## 成功后的页面
 

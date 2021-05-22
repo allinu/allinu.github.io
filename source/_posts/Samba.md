@@ -1,20 +1,21 @@
 ---
 title: Samba
 feature: true
+cover: https://ww1.sinaimg.cn/large/005ZbjyVly1gqopnswvqgj30t60jggnd.jpg
 tags:
   - Service
 categories:
   - Tech
-keywords: 'Samba,服务,网络,共享'
-description: 最近刚刚换了工作的地方,工作的网络环境需要随时的分享文件,传输文件,便搭建了Samba服务,由于环境中存在Mac电脑,便顺带把Mac的时间机器(Time Machine)和Samba联动了
+keywords: 'Samba, 服务，网络，共享'
+description: 最近刚刚换了工作的地方，工作的网络环境需要随时的分享文件，传输文件，便搭建了 Samba 服务，由于环境中存在 Mac 电脑，便顺带把 Mac 的时间机器 (Time Machine) 和 Samba 联动了
 date: 2021-05-14 19:59:51
 ---
-
+<meta name="referrer" content="no-referrer"/>
 # Samba 服务搭建
 
 ## 需求分析
 
-我们工作室人员不是很多,但是日常使用需要大量的文件拷贝复制,或者是备份任务,需要一个文件共享服务。
+我们工作室人员不是很多，但是日常使用需要大量的文件拷贝复制，或者是备份任务，需要一个文件共享服务。
 
 - 每个人需要一个单独地空间存储文件
 - 需要一个单独的共用文件夹共享文件
@@ -31,17 +32,15 @@ date: 2021-05-14 19:59:51
 
 :::
 
-### 安装Samba
+### 安装 Samba
 
 ```shell
 yum install -y samba
 ```
 
-
-
 ### 配置文件
 
-每个用户使用自己的家目录来存储自己的文件，这个在LInux中是自动完成的，配置简单，且符合需求。
+每个用户使用自己的家目录来存储自己的文件，这个在 Linux 中是自动完成的，配置简单，且符合需求。
 
 配置文件`cat /etc/samba/smb.conf`内容如下
 
@@ -129,8 +128,6 @@ yum install -y samba
 	browseable = yes
 ```
 
-
-
 :::tip Mac
 
 ```
@@ -151,7 +148,7 @@ yum install -y samba
 	fruit:delete_empty_adfiles = yes
 ```
 
-这里的Mac以下的部分是为了配置Mac的TimeMachine（时间机器）备份。
+这里的 Mac 以下的部分是为了配置 Mac 的 TimeMachine（时间机器）备份。
 
 :::
 
@@ -171,8 +168,8 @@ sudo systemctl enable smb
 
 ### Windows
 
-同时摁下<kbd>Windows</kbd> + <kbd>R</kbd>,在弹出的窗口输入`\\192.168.31.250 [这里是samba的IP地址]`然后输入用户名、密码验证身份就可以使用了。
+同时摁下<kbd>Windows</kbd> + <kbd>R</kbd>, 在弹出的窗口输入`\\192.168.31.250 [这里是 samba 的 IP 地址]`然后输入用户名、密码验证身份就可以使用了。
 
 ### Mac
 
-打开访达窗口，同时摁下<kbd>Command</kbd> + <kbd>K</kbd>,在弹出的窗口输入`smb://192.168.31.250 [这里是Samba的IP地址]`然后输入用户名、密码验证身份使用。
+打开访达窗口，同时摁下<kbd>Command</kbd> + <kbd>K</kbd>, 在弹出的窗口输入`smb://192.168.31.250 [这里是 Samba 的 IP 地址]`然后输入用户名、密码验证身份使用。
