@@ -12,6 +12,7 @@ keywords: 'PHP'
 description: 极客大挑战 2019 Havefun
 date: 2021-05-22 10:59:37
 ---
+<meta name="referrer" content="no-referrer"/>
 
 # 极客大挑战 2019 Havefun
 

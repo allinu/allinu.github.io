@@ -10,6 +10,7 @@ keywords: 'keyword1,keyword2'
 description: description
 date: 2021-05-21 19:51:05
 ---
+<meta name="referrer" content="no-referrer"/>
 
 # 幻灯片放映
 

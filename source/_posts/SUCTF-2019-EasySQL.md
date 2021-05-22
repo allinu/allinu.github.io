@@ -11,6 +11,7 @@ keywords: 'SqlInjection'
 description: 一道简单的 SQl 注入题目，说实话，我不直为啥。
 date: 2021-05-22 11:44:42
 ---
+<meta name="referrer" content="no-referrer"/>
 
 ## 题目页面
 

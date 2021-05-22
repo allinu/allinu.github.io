@@ -10,3 +10,4 @@ categories:
 keywords: keyword1,keyword2
 description: description
 ---
+<meta name="referrer" content="no-referrer"/>
