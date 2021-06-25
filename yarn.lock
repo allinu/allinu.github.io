@@ -117,6 +117,11 @@
   resolved "https://registry.nlark.com/@vue/devtools-api/download/@vue/devtools-api-6.0.0-beta.10.tgz?cache=0&sync_timestamp=1620864811521&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vue%2Fdevtools-api%2Fdownload%2F%40vue%2Fdevtools-api-6.0.0-beta.10.tgz"
   integrity sha1-852nYYzuKS45xydCJ8NBY+MOs8o=
 
+"@vue/devtools-api@^6.0.0-beta.14":
+  version "6.0.0-beta.14"
+  resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.0.0-beta.14.tgz#6ed2d6f8d66a9256c9ad04bfff08309ba87b9723"
+  integrity sha512-44fPrrN1cqcs6bFkT0C+yxTM6PZXLbR+ESh1U1j8UD22yO04gXvxH62HApMjLbS3WqJO/iCNC+CYT+evPQh2EQ==
+
 "@vue/reactivity@3.0.11":
   version "3.0.11"
   resolved "https://registry.nlark.com/@vue/reactivity/download/@vue/reactivity-3.0.11.tgz"
@@ -858,17 +863,17 @@ hexo-server@^2.0.0:
     open "^7.0.0"
     serve-static "^1.14.1"
 
-hexo-theme-aurora@^1.5.4:
-  version "1.5.4"
-  resolved "https://registry.nlark.com/hexo-theme-aurora/download/hexo-theme-aurora-1.5.4.tgz"
-  integrity sha1-aQJCbUR0xajpcM1z0MFCjEBmOj0=
+hexo-theme-aurora@^1.5.5:
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/hexo-theme-aurora/-/hexo-theme-aurora-1.5.5.tgz#d0fd100983cfb03d731eea943234b9ddfe092ce0"
+  integrity sha512-czgkgFH8VisS5qly6eecUUfB/2GF64l5AVBYjmLJ0Qp0ryZO/B4iD7yRDwWd/vmgFODKt4KNLdtvGqEj5TGG9g==
   dependencies:
     axios "^0.21.1"
     core-js "^3.6.5"
     js-cookie "^2.2.1"
     normalize.css "^8.0.1"
     nprogress "^0.2.0"
-    pinia "^2.0.0-alpha.7"
+    pinia "^2.0.0-beta.3"
     truncate-html "^1.0.3"
     vue "^3.0.7"
     vue-class-component "^8.0.0-rc.1"
@@ -1329,10 +1334,12 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
   resolved "https://registry.npm.taobao.org/picomatch/download/picomatch-2.2.3.tgz?cache=0&sync_timestamp=1618049925917&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpicomatch%2Fdownload%2Fpicomatch-2.2.3.tgz"
   integrity sha1-RlVH81nMwgbTxI5Goby4m/fuYZ0=
 
-pinia@^2.0.0-alpha.7:
-  version "2.0.0-alpha.16"
-  resolved "https://registry.nlark.com/pinia/download/pinia-2.0.0-alpha.16.tgz"
-  integrity sha1-BpOyJgYDp9cB/j+g6Eu+xTV0atE=
+pinia@^2.0.0-beta.3:
+  version "2.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.0.0-beta.3.tgz#c6f0d07da54dc5aa237f4cc9281898e927b33d16"
+  integrity sha512-4ygKhe9FrYD69tJ7nSdgHm9Ldb0aM/Nzyb8Qz/RZuzOyOr85jWHNmCAhCytWy0l9C4/ypGJYCEJ3vuZfyWjcZA==
+  dependencies:
+    "@vue/devtools-api" "^6.0.0-beta.14"
 
 pretty-hrtime@^1.0.3:
   version "1.0.3"
